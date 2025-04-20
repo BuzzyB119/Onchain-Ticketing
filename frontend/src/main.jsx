@@ -22,7 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <WagmiProvider config={config}>
       <QueryClientProvider client={queryClient}>
-        <OnchainKitProvider apiKey="YOUR_ONCHAINKIT_API_KEY" chain={baseSepolia}>
+        <OnchainKitProvider apiKey="" chain={baseSepolia}>
           <BrowserRouter>
             <App />
           </BrowserRouter>
